@@ -1,0 +1,30 @@
+.tableContainer {
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  display: none; /* Pour les navigateurs WebKit/Blink */
+}
+
+::moz-scrollbar {
+  display: none; /* Pour les navigateurs Gecko */
+}
+
+::-o-scrollbar {
+  display: none; /* Pour les navigateurs Opera */
+}
+
+.css-1a5df8h-MuiPaper-root .MuiBox-root .MuiBox-root {
+  background-color: grey;
+}
+
+.css-9d5u3-MuiTableCell-root {
+  background-color: grey;
+}
+
+.css-1lo7zds-MuiTableHead-root {
+  background-color: grey;
+}
