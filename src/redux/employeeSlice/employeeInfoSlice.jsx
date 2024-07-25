@@ -30,6 +30,7 @@ const employeeInfoSlice = createSlice({
         firstName: "",
         lastName: "",
         birthDate: "",
+        startDate: "",
       };
       console.log("State after reset:", resetState);
       return resetState;

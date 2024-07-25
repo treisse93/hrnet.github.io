@@ -222,16 +222,9 @@ export default function Form({
     console.log("Dispatched add_service");
     dispatch(
       add_employee({
-        id: store.getState().database.length + 1,
-        firstName,
-        lastName,
-        birthDate: ConvertDate(birthDate),
-        street,
-        city,
-        zip,
-        state: selectedStateLocation.value,
-        startDate: ConvertDate(startDate),
-        department: selectedDepartment.value,
+        employeeInfo: store.getState().employee.employeeInfo,
+        adress: store.getState().employee.adress,
+        service: store.getState().employee.service,
       })
     );
 

@@ -1,6 +1,7 @@
 {
   "name": "modal_hrnet_project",
   "version": "1.0.0",
+  "description": "Un composant de modal React simple et configurable qui s'ouvre au clic sur le bouton Submit si le formulaire est conforme et envoyé.",
   "main": "dist/modal.js",
   "module": "dist/modal.js",
   "exports": {
